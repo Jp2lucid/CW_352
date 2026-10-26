@@ -1,0 +1,51 @@
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 220px;
+  margin: 8px;
+  display: inline-block;
+  vertical-align: top;
+  background: #fff;
+}
+
+.product-card__stock {
+  font-weight: 700;
+}
+
+.product-card__stock--soldout {
+  color: red;
+}
+
+.product-card__stock--low {
+  color: orange;
+}
+
+.product-card__stock--instock {
+  color: green;
+}
+
+.product-card__price-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-card__price--old {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.product-card__sale-badge {
+  background: crimson;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.product-card__shipping {
+  color: green;
+  font-weight: 600;
+}

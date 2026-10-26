@@ -1,0 +1,41 @@
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 280px;
+  margin: 8px;
+  display: inline-block;
+  vertical-align: top;
+  background: #fff;
+}
+
+.weather-card__icon {
+  font-size: 40px;
+  margin: 0;
+}
+
+.weather-card__advice {
+  font-weight: 700;
+}
+
+.weather-card__advice--freezing {
+  color: royalblue;
+}
+
+.weather-card__advice--cold {
+  color: teal;
+}
+
+.weather-card__advice--nice {
+  color: green;
+}
+
+.weather-card__advice--hot {
+  color: orangered;
+}
+
+.weather-card__alert {
+  background: #fff3cd;
+  padding: 8px;
+  border-radius: 4px;
+}

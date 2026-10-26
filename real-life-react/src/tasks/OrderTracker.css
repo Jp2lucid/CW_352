@@ -1,0 +1,36 @@
+.order-tracker {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  max-width: 520px;
+  background: #fff;
+}
+
+.order-tracker__steps {
+  display: flex;
+  gap: 8px;
+}
+
+.order-tracker__step {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+.order-tracker__step--done {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+
+.order-tracker__step--upcoming {
+  background: #eee;
+  color: #888;
+}
+
+.order-tracker__step--current {
+  border-color: #1b5e20;
+  font-weight: 700;
+}

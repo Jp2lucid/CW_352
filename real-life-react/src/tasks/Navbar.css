@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.navbar__logo {
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.navbar__admin-link {
+  color: #ffd54f;
+  text-decoration: none;
+}
+
+.navbar__admin-link:hover {
+  text-decoration: underline;
+}
+
+.navbar__badge {
+  font-weight: 600;
+}
